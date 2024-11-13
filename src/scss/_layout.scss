@@ -19,8 +19,21 @@
     #e14a5c 80.19%,
     #e73e84 100%
   );
+  padding: 150px 0;
 }
 
 .l-logo {
   filter: invert(1);
+}
+
+.l-selling-section {
+  margin: 100px 0;
+}
+
+.container > * {
+  margin-bottom: 20px;
+}
+
+.container > *:last-child {
+  margin-bottom: 0;
 }
