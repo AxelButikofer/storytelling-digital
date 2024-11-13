@@ -1,0 +1,13 @@
+.worldmap-viewport {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.worldmap {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  transform-origin: center center;
+}

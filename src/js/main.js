@@ -51,3 +51,53 @@ parallaxContainer.addEventListener("mousemove", function (event) {
   document.querySelector(".layer-4").style.transform =
     "translate(" + deltaX4 + "px, " + deltaY4 + "px) scale(1.7)";
 });
+
+// WORLDMAP SCROLLTRIGGER
+const tl = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".worldmap",
+    start: "top top",
+    end: "+=15000",
+    markers: true,
+    scrub: 1,
+    pin: true,
+  },
+});
+
+tl.to(".worldmap", {
+  scale: 2.5,
+  x: "50%",
+  y: "10%",
+  duration: 4,
+  ease: "power1.inOut",
+});
+
+tl.to(".worldmap", {
+  scale: 2.5,
+  x: "-30%",
+  y: "50%",
+  duration: 4,
+  ease: "power1.inOut",
+});
+
+tl.to(".worldmap", {
+  x: "-30%",
+  y: "50%",
+  duration: 2,
+  ease: "power1.inOut",
+});
+
+tl.to(".worldmap", {
+  x: "-90%",
+  y: "-70%",
+  duration: 2,
+  ease: "power1.inOut",
+});
+
+tl.to(".worldmap", {
+  scale: 1,
+  x: "0",
+  y: "0",
+  duration: 4,
+  ease: "power1.inOut",
+});
