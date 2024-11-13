@@ -55,7 +55,7 @@ parallaxContainer.addEventListener("mousemove", function (event) {
 // WORLDMAP SCROLLTRIGGER
 const tl = gsap.timeline({
   scrollTrigger: {
-    trigger: ".worldmap",
+    trigger: ".worldmap-viewport",
     start: "top top",
     end: "+=15000",
     markers: true,
