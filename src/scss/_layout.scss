@@ -10,9 +10,7 @@
   background-color: rgba(86, 61, 124, 0.15);
   border: 1px solid rgba(86, 61, 124, 0.2);
 }
-
 */
-
 .l-storytelling {
   background: linear-gradient(
     180deg,
@@ -43,4 +41,12 @@
 
 .container > *:last-child {
   margin-bottom: 0;
+}
+
+.l-header-logo-container {
+  position: absolute;
+  z-index: 1;
+  scale: 2;
+  top: 150px;
+  right: 240px;
 }
