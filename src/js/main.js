@@ -72,6 +72,12 @@ tl.to(".worldmap", {
   ease: "power1.inOut",
 });
 
+tl.to(".character-1", {
+  opacity: 1,
+  duration: 3,
+  ease: "power1.inOut",
+});
+
 tl.to(".card-1", {
   opacity: 1,
   duration: 3,
@@ -83,6 +89,16 @@ tl.to(".card-1", {
   duration: 3,
   ease: "power1.inOut",
 });
+
+tl.to(
+  ".character-1",
+  {
+    opacity: 0,
+    duration: 3,
+    ease: "power1.inOut",
+  },
+  "-=3"
+);
 
 tl.to(".worldmap", {
   scale: 2.5,
@@ -92,6 +108,12 @@ tl.to(".worldmap", {
   ease: "power1.inOut",
 });
 
+tl.to(".character-2", {
+  opacity: 1,
+  duration: 3,
+  ease: "power1.inOut",
+});
+
 tl.to(".card-2", {
   opacity: 1,
   duration: 3,
@@ -103,6 +125,16 @@ tl.to(".card-2", {
   duration: 3,
   ease: "power1.inOut",
 });
+
+tl.to(
+  ".character-2",
+  {
+    opacity: 0,
+    duration: 3,
+    ease: "power1.inOut",
+  },
+  "-=3"
+);
 
 tl.to(".worldmap", {
   x: "-30%",
@@ -112,9 +144,15 @@ tl.to(".worldmap", {
 });
 
 tl.to(".worldmap", {
-  x: "-90%",
-  y: "-70%",
+  x: "-70%",
+  y: "-40%",
   duration: 2,
+  ease: "power1.inOut",
+});
+
+tl.to(".character-3", {
+  opacity: 1,
+  duration: 3,
   ease: "power1.inOut",
 });
 
@@ -129,6 +167,16 @@ tl.to(".card-3", {
   duration: 3,
   ease: "power1.inOut",
 });
+
+tl.to(
+  ".character-3",
+  {
+    opacity: 0,
+    duration: 3,
+    ease: "power1.inOut",
+  },
+  "-=3"
+);
 
 tl.to(".worldmap", {
   scale: 1,

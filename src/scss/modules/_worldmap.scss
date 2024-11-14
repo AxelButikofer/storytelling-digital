@@ -14,8 +14,8 @@
 
 .card {
   position: absolute;
-  background: #fef5cf;
   opacity: 0;
+  right: 0;
 }
 
 .card-frame {
@@ -30,5 +30,30 @@
 
 .card-content {
   position: absolute;
-  margin: 400px 70px 0 70px;
+  background: #fef5cf;
+  width: 480px;
+  height: 900px;
+  padding: 400px 40px 0 40px;
+  margin: 20px 0 20px 20px;
+}
+
+.character-1 {
+  position: absolute;
+  left: 350px;
+  top: 300px;
+  opacity: 0;
+}
+
+.character-2 {
+  position: absolute;
+  left: 400px;
+  top: 310px;
+  opacity: 0;
+}
+
+.character-3 {
+  position: absolute;
+  left: 250px;
+  top: 450px;
+  opacity: 0;
 }
