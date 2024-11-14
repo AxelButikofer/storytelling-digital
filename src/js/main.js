@@ -140,25 +140,134 @@ tl.to(".worldmap", {
 
 // STORYTELLING SCROLLTRIGGER
 
-const tlStorytelling = gsap.timeline({
+gsap.to(".frame-1", {
   scrollTrigger: {
-    trigger: ".frame",
-    start: "top center",
-    end: "+=5000",
+    trigger: ".frame-1",
+    start: "top 40%",
+    end: "+=200",
+    scrub: true,
     markers: true,
-    scrub: 1,
-    pin: true,
   },
+  opacity: 1,
+  duration: 2,
 });
 
-tlStorytelling.to(".frame-1", {
+gsap.to(".frame-2", {
+  scrollTrigger: {
+    trigger: ".frame-2",
+    start: "top 40%",
+    end: "+=200",
+    scrub: true,
+    markers: true,
+  },
   opacity: 1,
-  start: "animationStart+100",
-  ease: "power1.inOut",
+  duration: 2,
 });
 
-tlStorytelling.to(".frame-2", {
+gsap.to(".frame-3", {
+  scrollTrigger: {
+    trigger: ".frame-3",
+    start: "top 40%",
+    end: "+=200",
+    scrub: true,
+    markers: true,
+  },
   opacity: 1,
-  start: "animationStart+200",
-  ease: "power1.inOut",
+  duration: 2,
+});
+
+gsap.to(".frame-4", {
+  scrollTrigger: {
+    trigger: ".frame-4",
+    start: "top 40%",
+    end: "+=200",
+    scrub: true,
+    markers: true,
+  },
+  opacity: 1,
+  duration: 2,
+});
+
+gsap.to(".frame-5", {
+  scrollTrigger: {
+    trigger: ".frame-5",
+    start: "top 40%",
+    end: "+=200",
+    scrub: true,
+    markers: true,
+  },
+  opacity: 1,
+  duration: 2,
+});
+
+gsap.to(".frame-6", {
+  scrollTrigger: {
+    trigger: ".frame-6",
+    start: "top 40%",
+    end: "+=200",
+    scrub: true,
+    markers: true,
+  },
+  opacity: 1,
+  duration: 2,
+});
+
+gsap.to(".frame-7", {
+  scrollTrigger: {
+    trigger: ".frame-7",
+    start: "top 40%",
+    end: "+=200",
+    scrub: true,
+    markers: true,
+  },
+  opacity: 1,
+  duration: 2,
+});
+
+gsap.to(".frame-8", {
+  scrollTrigger: {
+    trigger: ".frame-8",
+    start: "top 40%",
+    end: "+=200",
+    scrub: true,
+    markers: true,
+  },
+  opacity: 1,
+  duration: 2,
+});
+
+gsap.to(".frame-9", {
+  scrollTrigger: {
+    trigger: ".frame-9",
+    start: "top 40%",
+    end: "+=200",
+    scrub: true,
+    markers: true,
+  },
+  opacity: 1,
+  duration: 2,
+});
+
+gsap.to(".frame-10", {
+  scrollTrigger: {
+    trigger: ".frame-10",
+    start: "top 40%",
+    end: "+=200",
+    scrub: true,
+    markers: true,
+  },
+  opacity: 1,
+  duration: 2,
+});
+
+gsap.to(".frame-11", {
+  scrollTrigger: {
+    trigger: ".frame-11",
+    start: "top 40%",
+    end: "+=200",
+    scrub: true,
+    markers: true,
+  },
+  opacity: 1,
+  duration: 2,
 });
