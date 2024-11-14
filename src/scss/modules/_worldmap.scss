@@ -11,3 +11,23 @@
   position: absolute;
   transform-origin: center center;
 }
+
+.card {
+  position: absolute;
+  background: #fef5cf;
+  opacity: 0;
+}
+
+.card-frame {
+  position: relative;
+}
+
+.card-img {
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.card-content {
+  position: absolute;
+}

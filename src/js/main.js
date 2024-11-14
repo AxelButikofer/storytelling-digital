@@ -72,11 +72,35 @@ tl.to(".worldmap", {
   ease: "power1.inOut",
 });
 
+tl.to(".card-1", {
+  opacity: 1,
+  duration: 3,
+  ease: "power1.inOut",
+});
+
+tl.to(".card-1", {
+  opacity: 0,
+  duration: 3,
+  ease: "power1.inOut",
+});
+
 tl.to(".worldmap", {
   scale: 2.5,
   x: "-30%",
   y: "50%",
   duration: 4,
+  ease: "power1.inOut",
+});
+
+tl.to(".card-2", {
+  opacity: 1,
+  duration: 3,
+  ease: "power1.inOut",
+});
+
+tl.to(".card-2", {
+  opacity: 0,
+  duration: 3,
   ease: "power1.inOut",
 });
 
@@ -94,10 +118,47 @@ tl.to(".worldmap", {
   ease: "power1.inOut",
 });
 
+tl.to(".card-3", {
+  opacity: 1,
+  duration: 3,
+  ease: "power1.inOut",
+});
+
+tl.to(".card-3", {
+  opacity: 0,
+  duration: 3,
+  ease: "power1.inOut",
+});
+
 tl.to(".worldmap", {
   scale: 1,
   x: "0",
   y: "0",
   duration: 4,
+  ease: "power1.inOut",
+});
+
+// STORYTELLING SCROLLTRIGGER
+
+const tlStorytelling = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".frame",
+    start: "top center",
+    end: "+=5000",
+    markers: true,
+    scrub: 1,
+    pin: true,
+  },
+});
+
+tlStorytelling.to(".frame-1", {
+  opacity: 1,
+  start: "animationStart+100",
+  ease: "power1.inOut",
+});
+
+tlStorytelling.to(".frame-2", {
+  opacity: 1,
+  start: "animationStart+200",
   ease: "power1.inOut",
 });
