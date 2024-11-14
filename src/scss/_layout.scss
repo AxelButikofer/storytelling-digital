@@ -50,3 +50,29 @@
   top: 150px;
   right: 240px;
 }
+
+.l-footer-icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.l-logo-dargaud {
+  padding-top: 80px;
+}
+
+.l-button {
+  color: white;
+  background: black;
+  border-radius: 5px;
+  padding: 12px;
+}
+
+.l-button:hover {
+  color: white;
+  background: #e14a5c;
+  transition: 0.2s;
+}
+
+.l-button-container {
+  padding: 60px 0;
+}

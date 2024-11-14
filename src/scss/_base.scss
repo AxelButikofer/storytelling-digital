@@ -13,6 +13,10 @@ video {
   display: block;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 header {
   color: white;
 }
@@ -20,7 +24,7 @@ header {
 footer {
   color: white;
   background: #e14a5c;
-  padding: 100px 0;
+  padding: 100px 30px 10px 30px;
 }
 
 a {
@@ -32,8 +36,15 @@ a {
   letter-spacing: 0.6px;
 }
 
-h3 {
-  margin-top: 80px;
-  margin-left: 180px;
-  position: absolute;
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  text-align: center;
+  padding-top: 90px;
+}
+
+nav {
+  padding-top: 50px;
 }

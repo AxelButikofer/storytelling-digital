@@ -17,7 +17,7 @@
       <div class="parallax-container h-50 w-50">
         <div class="row l-header-logo-container">
           <div class="col-12">
-            <h1>
+            <h1 id="furieuse">
               <img
                 class="l-logo"
                 src="../img/furieuse_logo.svg"
@@ -179,11 +179,16 @@
               sombres qu’elles n’en ont l’air…
             </p>
             <div class="row">
-              <div class="col-4">
-                <a href="">button</a>
+              <div class="col-4 l-button-container">
+                <a
+                  class="l-button"
+                  href="https://www.fr.fnac.ch/a17162608/Geoffroy-Monde-Furieuse"
+                  target="_blank"
+                  >Acheter la BD</a
+                >
               </div>
-              <div class="col-8">
-                <a href="">button</a>
+              <div class="col-8 l-button-container">
+                <a class="l-button" href="">Point de vente</a>
               </div>
               <div class="col-4">
                 <p>
@@ -219,18 +224,22 @@
     <footer>
       <div class="row">
         <div class="col-5">
-          <img
-            class="l-logo"
-            src="../img/furieuse_logo.svg"
-            alt="Logo de la bd Furieuse"
-          />
+          <a href="#furieuse">
+            <img
+              class="l-logo"
+              src="../img/furieuse_logo.svg"
+              alt="Logo de la bd Furieuse"
+            />
+          </a>
         </div>
         <div class="col-2 offset-1">
-          <img
-            class="l-logo"
-            src="../img/dargaud_logo.svg"
-            alt="Logo de Dargaud."
-          />
+          <a href="https://www.dargaud.com/" target="_blank">
+            <img
+              class="l-logo l-logo-dargaud"
+              src="../img/dargaud_logo.svg"
+              alt="Logo de Dargaud."
+            />
+          </a>
         </div>
         <div class="col-3 offset-1">
           <nav>
@@ -240,9 +249,22 @@
             <br />
             <a href="">Point de vente</a>
             <br />
-            <a href="">youtube</a>
-            <a href="">instagram</a>
-            <a href="">twitter</a>
+            <div class="row">
+              <div class="col-8 l-footer-icons">
+                <a
+                  href="https://www.youtube.com/@editionsdargaud/featured"
+                  target="_blank"
+                >
+                  <img src="../img/youtube_icon.png" alt="" />
+                </a>
+                <a href="https://www.instagram.com/dargaud/" target="_blank">
+                  <img src="../img/instagram_icon.png" alt="" />
+                </a>
+                <a href="https://x.com/EditionsDargaud" target="_blank">
+                  <img src="../img/twitter_icon.png" alt="" />
+                </a>
+              </div>
+            </div>
           </nav>
         </div>
       </div>
