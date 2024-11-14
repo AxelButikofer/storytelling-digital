@@ -30,21 +30,20 @@
   height: 100%;
   transform-origin: center center;
   pointer-events: none;
-  border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .layer-1 {
-  transform: scale(1.1);
+  transform: scale(1);
 }
 .layer-2 {
-  transform: scale(1.2);
+  transform: scale(1);
 }
 .layer-3 {
-  transform: scale(1.4);
+  transform: scale(1);
 }
 .layer-4 {
-  transform: scale(1.7);
+  transform: scale(1);
 }

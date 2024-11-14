@@ -22,7 +22,7 @@ parallaxContainer.addEventListener("mousemove", function (event) {
     (-(containerCoords.height * 1.1 - containerCoords.height) * percY) / 2;
 
   document.querySelector(".layer-1").style.transform =
-    "translate(" + deltaX1 + "px, " + deltaY1 + "px) scale(1.1)";
+    "translate(" + deltaX1 + "px, " + deltaY1 + "px) scale(1)";
 
   // layer 2
   const deltaX2 =
@@ -40,7 +40,7 @@ parallaxContainer.addEventListener("mousemove", function (event) {
     (-(containerCoords.height * 1.4 - containerCoords.height) * percY) / 2;
 
   document.querySelector(".layer-3").style.transform =
-    "translate(" + deltaX3 + "px, " + deltaY3 + "px) scale(1.4)";
+    "translate(" + deltaX3 + "px, " + deltaY3 + "px) scale(1.5)";
 
   // layer 4
   const deltaX4 =
@@ -49,7 +49,7 @@ parallaxContainer.addEventListener("mousemove", function (event) {
     (-(containerCoords.height * 1.7 - containerCoords.height) * percY) / 2;
 
   document.querySelector(".layer-4").style.transform =
-    "translate(" + deltaX4 + "px, " + deltaY4 + "px) scale(1.7)";
+    "translate(" + deltaX4 + "px, " + deltaY4 + "px) scale(1.5)";
 });
 
 // WORLDMAP SCROLLTRIGGER
