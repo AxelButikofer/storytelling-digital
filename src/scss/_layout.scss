@@ -28,7 +28,7 @@
 }
 
 .l-selling-section {
-  margin: 100px 0;
+  margin: 300px 0;
 }
 
 .l-storytelling-gap-spacing {
@@ -77,6 +77,31 @@
   padding: 60px 0;
 }
 
-.l-header-name {
-  font-size: 10px;
+.l-bg-transition-black {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    #000 25%,
+    #000 75%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  width: 100vw;
+  height: 300px;
+  position: absolute;
+  z-index: 1;
+  top: 850px;
+}
+
+.l-bg-transition-pink {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    #e73e84 25%,
+    #e73e84 75%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  width: 100vw;
+  height: 300px;
+  position: absolute;
+  z-index: 1;
 }
